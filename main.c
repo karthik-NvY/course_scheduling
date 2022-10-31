@@ -86,7 +86,7 @@ int main(void)
 	
 	int** p = make_graph();
 
-	update_course_nodes(p, courses); // Todo
+	update_course_nodes(p, courses);
 	build_heap(heap);
 
 	int result = backtrack();
